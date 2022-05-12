@@ -1,7 +1,7 @@
 name: run-script-github
 on: 
   workflow_dispatch:
-    input:
+    inputs:
       enter values:
         desription: 'enter values'
         required: true
