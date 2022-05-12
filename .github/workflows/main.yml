@@ -5,7 +5,7 @@ on:
       enter values:
         desription: 'enter values'
         required: true
-        default: 1, 2, 20, 30, 100, 3, 50, 4 
+        # default: 
 env:
   name: myscript.py
   run: ${{github.event.input.entervalues}}

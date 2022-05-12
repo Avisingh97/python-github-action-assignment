@@ -1,3 +1,4 @@
+import sys
 def findLongestConseqSubseq(arr, n):
      
     ans = 0
@@ -19,7 +20,7 @@ def findLongestConseqSubseq(arr, n):
         ans = max(ans, count)
          
     return ans
-arr = [ 1, 2, 20, 30, 100, 3, 50, 4 ]
+arr =  sys.argv[1]
 n = len(arr) 
 print("Length of the Longest contiguous subsequence is",
        findLongestConseqSubseq(arr, n))
