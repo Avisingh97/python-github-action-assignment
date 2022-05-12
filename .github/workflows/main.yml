@@ -22,4 +22,5 @@ jobs:
       - name: run script
         run:  |
           cd file1
-          python $name $run
+          echo $run
+          # python $name $run
